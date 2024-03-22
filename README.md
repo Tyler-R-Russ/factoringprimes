@@ -31,7 +31,7 @@ If the folder is not automatically incorporated into your Python path, then
 import sys
 sys.path.append('factoringprimes')
 
-If this call to sys.path.append does not work, you may need to use a call to identify the location of the directory, similar in spirit to the following:
+If this call to sys.path.append does not work, you may need to use a call to specify the location of the directory, similar in spirit to the following:
 sys.path.append('path/to/factoringprimes')
 
 Once the folder (directory) is in your Python path, you can 
