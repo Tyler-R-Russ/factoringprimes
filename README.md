@@ -52,7 +52,7 @@ import fullprimefactors
 
 from fullprimefactors import fullprimefactors
 
-You should be able to run any module following these steps.
+You should be able to run any module following the steps given above.
 
 ## Calling each Module:
 
