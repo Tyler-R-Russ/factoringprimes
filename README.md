@@ -182,6 +182,7 @@ $n$ is an integer
   
 Purpose: This module returns the list of primes from $2$ up to $n$.
 </details>
+
 <details>
   <summary>
     primesrange:
@@ -193,6 +194,19 @@ $a < b$ are integers
      
 Purpose: This module lists the positive primes in a range from $a$ to $b$.
 </details>
+
+<details>
+ <summary>
+    properfactors:
+  </summary>
+  
+properfactors($n$)
+  
+$n$ is an integer
+     
+Purpose: This module generates the proper factors of a number $n$ (which excludes $n$ itself).
+</details>
+
 <details>
   <summary>
     sumfullfactors:
@@ -204,6 +218,7 @@ $n$ is an integer
 
 Purpose: This program finds the sum of the factors of a number $n$, including $n$.
 </details>
+
 <details>
   <summary>
     sumfullfactorsrange:
@@ -214,4 +229,16 @@ sumfullfactorsrange($a,b$)
 $a < b$ are integers
 
 Purpose: This module calculates the sum of the factors of every number in a given range $a$ to $b$.
+</details>
+
+<details>
+ <summary>
+    totient:
+  </summary>
+  
+totient($n$)
+  
+$n$ is an integer
+
+Purpose: This module calculates Euler's totient function for the number $n$.
 </details>
