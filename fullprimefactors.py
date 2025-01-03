@@ -1,9 +1,3 @@
-import prime
-from prime import prime
-
-from fractions import gcd
-from math import sqrt
-from math import ceil
 from math import floor #returns float
 
 
@@ -34,17 +28,3 @@ def fullprimefactors(n):
      if m != 1: #at most one (linear) prime factor m greater than sqrt(n)
          lst.append(m)
      return(lst)
-
-
-
-#Follow up: compare the list comprehension here with filter command for
-#speed and efficiency.
-
-
-
-
-
-
-
-
-  
