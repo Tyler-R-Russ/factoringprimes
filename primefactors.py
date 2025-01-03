@@ -1,3 +1,4 @@
+import totient
 from totient import totient
 
 import fullproperfactors
