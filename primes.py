@@ -18,10 +18,3 @@ def primes(n):
     for i in lst:
         lst=filter(lambda i:len(halfproperfactors(i))==1,lst)
     return(lst)
-    
-
-
-
-
-
-
