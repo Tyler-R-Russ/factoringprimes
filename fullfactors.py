@@ -7,8 +7,8 @@ import halfproperfactors
 from halfproperfactors import halfproperfactors
 
 
-#Purpose: This module creates a complete list of the (proper)
-#factors of a number n. We include the number 'n' as well.
+#Purpose: This module creates a complete list of the
+#factors of a number n, including the number 'n' as well.
 
 #Theory: Half of the proper factors are less than sqrt(n)
 #The remaining proper factors can be found by division;
@@ -17,7 +17,7 @@ from halfproperfactors import halfproperfactors
 #d' = n/d.
 
 
-def fullproperfactors(n):
+def fullfactors(n):
      if (n<=0): return("n must be a positive integer")
      
      lst = halfproperfactors(n) #module 'halfproperfactors'
