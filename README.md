@@ -2,14 +2,14 @@
 
 This is short-hand for the more descriptive title, "Factoring numbers and identifying primes and prime factors".
 
-These modules have been written in Python, originally in Python 2.7.5.1 and then edited in Python's editor Idle, version 3.6. This code should compile and run in both of these versions. Please message me if you have difficulty running the code (truss3@gmu.edu) following the steps below.
+These modules have been written in Python, originally in Python 2.7.5.1 and then edited for Python 3. This code should compile and run with Python version 3.6. Please message me if you have difficulty running the code (truss3@gmu.edu) following the steps below.
 
 ## Motivation and Use: 
 
 I began writing these files to have desktop access to factoring software.
-Also, my research involved identifying primes and their multiples. 
+Also, my research involved identifying primes, ranges of primes, sums of factors of numbers, etc., so programs for specific purposes were needed.
 
-So the modules in this folder (factoringprimes) have the function of finding a numbers proper and prime factors, finding primes in a given range and related computations.
+The modules in this folder (factoringprimes) have the function of finding a number's proper and prime factors, finding primes in a given range and related computations.
 
 ## Description: 
 
