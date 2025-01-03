@@ -14,6 +14,7 @@ The modules in this folder (factoringprimes) have the function of finding a numb
 ## Description: 
 
 This folder (project) contains a number of Python modules which are interdependent. The hierarchy of these modules is laid out in a separate file (pdf) "Dependency_Diagram_factoringprimes.pdf"
+
 (See the section below, "Calling each Module" for the specifics of running each module.)
 
 ## How to Run the Project:
@@ -84,7 +85,7 @@ Purpose: This module returns the prime factors of a natural number $n$.
 </details>
 <details>
   <summary>
-    fullproperfactors:
+    fullfactors:
   </summary>
   
 fullfactors(n) 
