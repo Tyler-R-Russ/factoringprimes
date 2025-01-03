@@ -1,7 +1,7 @@
 import primesrange
 from primesrange import primesrange
 
-from fractions import gcd
+from math import gcd
 from math import sqrt
 from math import ceil
 from math import floor #returns float
@@ -22,9 +22,3 @@ def halfprimefactors(n):
      #returns a float object; we force its class to integer (int).
      lst = [x for x in lst if n%x == 0]
      return(lst)
-
-
-#Follow up: compare the list comprehension here with filter command for
-#speed and efficiency.
-
-  
