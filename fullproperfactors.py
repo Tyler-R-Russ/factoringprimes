@@ -1,4 +1,4 @@
-from fractions import gcd
+from math import gcd
 from math import sqrt
 from math import ceil
 from math import floor
@@ -33,21 +33,3 @@ def fullproperfactors(n):
      #convert to a set to eliminate redundancies (if n is a perfect square),
      #change the type to list and sort it.
      return(lst)
-
-
-
-#notation from:
-# https://docs.python.org/3/tutorial/datastructures.html#tut-loopidioms
-
-
-
-
-
-
-
-
-
-
-
-   
-
