@@ -16,5 +16,5 @@ def primes(n):
     lst = range(2,n+1)
     i = 2
     for i in lst:
-        lst=filter(lambda i:len(halfproperfactors(i))==1,lst)
+        lst=list(filter(lambda i:len(halfproperfactors(i))==1,lst))
     return(lst)
