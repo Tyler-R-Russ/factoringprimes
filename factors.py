@@ -1,4 +1,4 @@
-from fractions import gcd
+from math import gcd
 
 #Purpose: This code generates the factors of a (natural) number n.
 
@@ -12,10 +12,5 @@ def factors(n):
      i = 1
      for i in range (1, n):
                     lst = range (1,n+1)
-                    lst = filter(lambda i:gcd (i,n) == i,lst)
+                    lst = list(filter(lambda i:gcd (i,n) == i,lst))
      return (lst)
-
-
-
-
- 
