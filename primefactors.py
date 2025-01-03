@@ -1,8 +1,8 @@
 import totient
 from totient import totient
 
-import fullproperfactors
-from fullproperfactors import fullproperfactors
+import fullfactors
+from fullfactors import fullfactors
 
 #Purpose: This gives a list of the prime factors of a number.
 #If the number is prime, it returns the number itself.
@@ -11,7 +11,7 @@ from fullproperfactors import fullproperfactors
 def primefactors(n):
     if (n<=0): return("n must be a positive integer")
 
-    lst = fullproperfactors(n)
+    lst = fullfactors(n)
     del lst[0]  #Namely, we want to exclude the proper factor "1" since it is not prime
     i=1
     for i in lst:
