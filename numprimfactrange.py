@@ -6,6 +6,8 @@ from numberofprimefactors import numberofprimefactors
 
 #short for: numberofprimefactorsinarange
 def numprimfactrange (a,b):
+    lst=list()
+    #lst=[]
     for i in range (a,b+1):
-        lst[i-a]=numberofprimefactors(i)
+        lst.append(numberofprimefactors(i))
     return (lst)
