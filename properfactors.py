@@ -1,4 +1,4 @@
-from fractions import gcd
+from math import gcd
 from math import sqrt
 from math import ceil
 from math import floor
@@ -16,9 +16,6 @@ def properfactors(n):
      i = 2
      for i in range (2, n-1):
                     lst = range (2,n)
-                    lst = filter(lambda i:gcd (i,n) == i,lst)
+                    lst = list(filter(lambda i:gcd (i,n) == i,lst))
                     lst.insert(0,1) #Here, we include 1 as a proper factor
      return (lst)
-
-
-
