@@ -58,7 +58,7 @@ You should be able to run any module following the steps given above.
 
 The information below describes how to call each module and the specific calculation each module performs.
 
-You can find this information in each separate python module ('edit' with Idle).
+You can find this information in each separate python module (e.g. by selecting 'edit' with Idle).
 For convenience it is included below.
 The modules are described in alphabetical order.
 
@@ -69,38 +69,38 @@ factors($n$)
   
 $n$ is an integer
 
-Purpose: This code generates the factors of a (natural) number n.
+Purpose: This code generates the factors of a (natural) number $n$.
 </details>
 <details>
   <summary>
     fullprimefactors:
   </summary>
   
-fullprimefactors(n)
+fullprimefactors($n$)
   
-n is an integer
+$n$ is an integer
 
-Purpose: This module returns the prime factors of a natural number n.
+Purpose: This module returns the prime factors of a natural number $n$.
 </details>
 <details>
   <summary>
     fullproperfactors:
   </summary>
   
-fullproperfactors(n) 
+fullfactors(n) 
   
-n is an integer
+$n$ is an integer
 
-Purpose: This module creates a complete list of the factors of a number, including the number 'n' as well.
+Purpose: This module creates a complete list of the factors of a number, including the number '$n$' as well.
 </details>
 <details>
   <summary>
     halfprimefactors:
   </summary>
   
-halfprimefactors(n)
+halfprimefactors($n$)
   
-n is an integer
+$n$ is an integer
 
 Purpose: This module returns the prime factors of a natural number n less than or equal to $\sqrt{n}$.
 </details>
@@ -111,18 +111,18 @@ Purpose: This module returns the prime factors of a natural number n less than o
   
 halfproperfactors(n)
   
-n is an integer
+$n$ is an integer
 
-Purpose: This module calculates half of the proper factors of a natural number n from 1 (one) up to $\sqrt{n}$.
+Purpose: This module calculates half of the proper factors of a natural number $n$ from $1$ (one) up to $\sqrt{n}$.
 </details>
 <details>
   <summary>
     mersennerange:
   </summary>
   
-mersennerange(a,b)
+mersennerange($a,b$)
   
-a < b are integers
+$a < b$ are integers
 
 This module provides the Mersenne primes within a bound between the two number $2^{a} - 1$ and $2^{b} - 1$ (inclusive).
 </details>
@@ -133,7 +133,7 @@ This module provides the Mersenne primes within a bound between the two number $
   
 numberofprimefactors(n)
   
-n is an integer
+$n$ is an integer
 
 Purpose: This module gives the number of prime factors of a number n.
 </details>
@@ -142,31 +142,31 @@ Purpose: This module gives the number of prime factors of a number n.
     numprimfactrange:
   </summary>
   
-numprimfactrange (a,b)
+numprimfactrange ($a,b$)
   
-a < b are integers
+$a < b$ are integers
 
-Purpose: This module gives the number of prime factors for a list of numbers in a range from a to b.
+Purpose: This module gives the number of prime factors for a list of numbers in a range from $a$ to $b$.
 </details>
 <details>
   <summary>
     prime:
   </summary>
   
-prime(n)
+prime($n$)
   
-n is an integer
+$n$ is an integer
 
-Purpose: This module returns true (1) if n is prime, otherwise false (0).
+Purpose: This module returns true ($1$) if $n$ is prime, otherwise false ($0$).
 </details>
 <details>
   <summary>
     primefactors:
   </summary>
   
-primefactors(n)
+primefactors($n$)
   
-n is an integer
+$n$ is an integer
 
 Purpose: This gives a list of the prime factors of a number. If the number is prime, it returns the number itself.
 </details>
@@ -175,42 +175,42 @@ Purpose: This gives a list of the prime factors of a number. If the number is pr
     primes:
   </summary>
   
-primes(n)
+primes($n$)
   
-n is an integer
+$n$ is an integer
   
-Purpose: This module returns the list of primes from 2 up to n.
+Purpose: This module returns the list of primes from $2$ up to $n$.
 </details>
 <details>
   <summary>
     primesrange:
   </summary>
   
-primesrange(a,b)
+primesrange($a,b$)
   
-a < b are integers
+$a < b$ are integers
      
-Purpose: This module lists the positive primes in a range from a to b.
+Purpose: This module lists the positive primes in a range from $a$ to $b$.
 </details>
 <details>
   <summary>
-    sumfullproperfactors:
+    sumfullfactors:
   </summary>
   
-sumfullproperfactors(n)
+sumfullfactors(n)
   
-n is an integer
+$n$ is an integer
 
-Purpose: This program finds the sum of the factors of a number n, including n.
+Purpose: This program finds the sum of the factors of a number $n$, including $n$.
 </details>
 <details>
   <summary>
-    sumfullproperfactorsrange:
+    sumfullfactorsrange:
   </summary>
   
-sumfullproperfactorsrange(a,b)
+sumfullfactorsrange($a,b$)
   
-a < b are integers
+$a < b$ are integers
 
-Purpose: This module calculates the sum of the factors of every number in a given range a to b.
+Purpose: This module calculates the sum of the factors of every number in a given range $a$ to $b$.
 </details>
