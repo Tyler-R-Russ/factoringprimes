@@ -13,7 +13,7 @@ The modules in this folder (factoringprimes) have the function of finding a numb
 
 ## Description: 
 
-This folder (project) contains a number of Python modules which are interdependent. The hierarchy of these modules is laid out in a separate file (pdf) Hierarchy of Modules.
+This folder (project) contains a number of Python modules which are interdependent. The hierarchy of these modules is laid out in a separate file (pdf) "Dependency_Diagram_factoringprimes.pdf"
 (See the section below, "Calling each Module" for the specifics of running each module.)
 
 ## How to Run the Project:
@@ -65,9 +65,9 @@ The modules are described in alphabetical order.
 <details>
   <summary>factors:</summary>
   
-factors(n)
+factors($n$)
   
-n is an integer
+$n$ is an integer
 
 Purpose: This code generates the factors of a (natural) number n.
 </details>
@@ -91,7 +91,7 @@ fullproperfactors(n)
   
 n is an integer
 
-Purpose: This module creates a complete list of the (proper) factors of a number n and includes the number 'n' as well.
+Purpose: This module creates a complete list of the factors of a number, including the number 'n' as well.
 </details>
 <details>
   <summary>
