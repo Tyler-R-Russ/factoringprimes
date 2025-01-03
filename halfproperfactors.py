@@ -1,4 +1,4 @@
-from fractions import gcd
+from math import gcd
 from math import sqrt
 from math import ceil
 from math import floor
@@ -13,13 +13,8 @@ from math import floor
 
 
 def halfproperfactors(n):
-     lst = xrange (2,int(floor(sqrt(n)+1))) #python command 'floor' returns
-     #a float object; we force its class to integer (int).
+     lst = range (2,int(floor(sqrt(n)+1))) # python command 'floor' returns
+     # a float object; we force its class to integer (int).
      lst = [x for x in lst if gcd (x,n) == x]
      lst.insert(0,1) #Here, we include 1 as a proper factor
      return(lst)
-
-
-
-
-
